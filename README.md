@@ -10,7 +10,6 @@
 
 It's an hobby grade Pen Plotter which can plot upto A1 size pages and will be efficient to use . It is also very reliable to use it uses grbl software.I have made it open source and anyone can recreate this and also customize it as all the step files are provided . This is made up of 2020 Extrusion Rod with Nema 17 stepper Motor..
 
-<div align="center">
   
 ### Rough Sketch
 
@@ -28,6 +27,7 @@ It's an hobby grade Pen Plotter which can plot upto A1 size pages and will be ef
 | <img src="https://github.com/user-attachments/assets/cf7c77ec-bcb4-4a07-af17-84814ae5d3e6" width="250" alt="CAD Work 32" style="border-radius: 12px;" /> | <img src="https://github.com/user-attachments/assets/d2e4d127-5f1f-48a8-97f4-6bf4affd3580" width="250" alt="CAD Work 34" style="border-radius: 12px;" /> | <img src="https://github.com/user-attachments/assets/8d54e0eb-73f6-4733-8819-c13c0237b8b0" width="250" alt="CAD Work 36" style="border-radius: 12px;" /> |
 | <img src="https://github.com/user-attachments/assets/2760f595-ba16-4358-8565-80e33a8aea52" width="250" alt="CAD Work 39" style="border-radius: 12px;" /> | <img src="https://github.com/user-attachments/assets/2c65daa6-3e7f-4e44-9e25-55a56d8310cd" width="250" alt="CAD Work 42" style="border-radius: 12px;" /> | <img src="https://github.com/user-attachments/assets/1f62dfa5-557a-42c9-8a32-50be5da24e73" width="250" alt="CAD Work 47" style="border-radius: 12px;" /> |
 | <img src="https://github.com/user-attachments/assets/f719e00a-8817-4589-a976-bd5b86d53faf" width="250" alt="CAD Work 49" style="border-radius: 12px;" /> | <img src="https://github.com/user-attachments/assets/a08bc2e9-9be8-49ee-8b94-c23aa2f8e1c5" width="250" alt="CAD Work 51" style="border-radius: 12px;" /> | <img src="https://github.com/user-attachments/assets/72b73a52-43e4-49f9-92dd-f50b3f03fc05" width="250" alt="CAD Work 52" style="border-radius: 12px;" /> |
+
 </div>
 
 ---
@@ -38,7 +38,6 @@ It's an hobby grade Pen Plotter which can plot upto A1 size pages and will be ef
   <img width="618" height="407" alt="44" src="https://github.com/user-attachments/assets/db57b136-b41c-432d-b8f7-8cbe54a79360" style="border: 2px solid #ccc; border-radius: 4px; padding: 4px;" />
 </p>
 
-
 ## Setup
 
 Once the machine is assembled and wired, firmware needs to be installed so that it can move.
@@ -47,8 +46,8 @@ Once the machine is assembled and wired, firmware needs to be installed so that 
 GRBL is the firmware which is going to run on the Arduino and interpret the G-code commands. The installation is fairly simple.
 
 1. **Download the Arduino IDE** from their site, a program which allows to flash the Arduino with firmware.
-2. **Download GRBL source code** `.zip` file from the GitHub repository: https://github.com/gnea/grbl/releases and unzip the grbl file. 
-   > **Note:** Before we proceed, we need to modify the `config.h` file inside grbl to account for the lack of the Z axis.
+2. **Download GRBL source code** `.zip` file from the GitHub repository: https://github.com/gnea/grbl/releases and unzip the grbl file.  
+**Note:** Before we proceed, we need to modify the `config.h` file inside grbl to account for the lack of the Z axis.
 3. **Open Arduino IDE and import the grbl file** via: `Sketch` -> `Include Library` -> `Add .ZIP Library...` *(it says .ZIP but the uncompressed file should be chosen)*.
 4. **Navigate to the grblUpload sketch** via: `File` -> `Examples` -> `grbl` -> `grblUpload`.
 5. **Connect the Arduino to the PC via USB** *(make sure the correct board and port is selected)*.
@@ -61,11 +60,9 @@ Connecting the Arduino to LaserGRBL (through which I will control the laser) is 
 
 1. **Download LaserGRBL** from their website: https://lasergrbl.com and install it.
 2. **Connect the Arduino to the computer via USB**.
-3. **Choose the correct port** and select **"115200" baud rate**, then click **Connect**. 
+3. **Choose the correct port** and select **"115200" baud rate**, then click **Connect**.  
 
 If the console shows `Grbl 1.1h`, the chip is connected.
-
----
   
 ## Final Look ( Made in Fusion 360 )
 
@@ -81,6 +78,11 @@ If the console shows `Grbl 1.1h`, the chip is connected.
 
 </div>
 
+
+
+<div align="center">
+  <h2> Bill of Materials</h2>
+</div>
 
 | Name | Purpose | Quantity | Total Cost (USD) | Link | Distributor |
 | :--- | :--- | :---: | :---: | :--- | :--- |
@@ -114,3 +116,39 @@ If the console shows `Grbl 1.1h`, the chip is connected.
 | V-Slot Idler Pulley | For Gantry System | 14 | 9.20 | [Link](https://www.flyrobo.in/openbuilds-plastic-wheel-idler-pulley?tracking=ads&tracking=4a9a9a&gad_source=1&gad_campaignid=17426303996&gbraid=0AAAAAC6AkE_NECiWtmL3gzgQd0fCbk3-i&gclid=Cj0KCQjwo_PRBhDNARIsAEcVALVZydW5oqzWb8p7Mpcs0WUBl-bKHlFv_qlc160ZvSgCLvOsrBOlTxsaAnJIEALw_wcB) | flyrobo |
 | Nema 17 Bipolar Stepper Motor | The Main Motor | 3 | 40.90 | [Link](https://robu.in/product/fulling-fl42sth38-1684a-nema-17-stepper-motor/) | robu |
 | 2020 Aluminium Extrusion | For the Frame | 5 | 37.09 | [Link](https://robu.in/product/easymech-20x20-t-slot-aluminium-extrusion-profile-1500-mm/?gad_source=1&gad_campaignid=17416544847&gbraid=0AAAAADvLFWeV6_fecEXW7yD2KwMGyNReC&gclid=Cj0KCQjwo_PRBhDNARIsAEcVALW-4mr0xMai9GUFMWCMWb8fglqwupc6Pt-b0wQmlohO40K5rTqcSpEaAnUyEALw_wcB) | robu |
+
+<div align="center">
+  <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; max-width: 600px;">
+    <tr>
+      <td style="background: #ffffff; border: 1px solid #d0d7de; border-radius: 12px; padding: 20px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;">
+        <div style="font-size: 16px; font-weight: 600; color: #24292f; margin-bottom: 12px; border-bottom: 1px solid #d0d7de; padding-bottom: 8px;">
+          Final Bill
+        </div>
+        <table width="100%" border="0" style="border-collapse: collapse; font-size: 14px; color: #57606a;">
+          <tr>
+            <td style="padding: 4px 0;">Component Subtotal:</td>
+            <td align="right" style="font-weight: 500; color: #24292f;">$160.22</td>
+          </tr>
+          <tr>
+            <td style="padding: 4px 0;"> Shipping:</td>
+            <td align="right" style="font-weight: 500; color: #24292f;">$4.2</td>
+          </tr>
+          <tr>
+            <td style="padding: 4px 0; padding-bottom: 8px;"> Tax:</td>
+            <td align="right" style="font-weight: 500; color: #24292f;">$5.1</td>
+          </tr>
+          <tr style="border-top: 1px dashed #d0d7de;">
+            <td style="padding: 12px 0 0 0; font-weight: 600; color: #24292f; font-size: 15px;">Net Total Cost:</td>
+            <td align="right" style="padding: 12px 0 0 0; font-weight: bold; color: #2da44e; font-size: 18px;">$169.52</td>
+          </tr>
+          <tr>
+            <td style="padding: 2px 0 0 0; font-size: 11px; color: #8c959f;">Projected Budget Allocation:</td>
+            <td align="right" style="padding: 2px 0 0 0; font-weight: 500; font-size: 12px; color: #8c959f;">$170</td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</div>
+
+**Project Under Hack Club**
