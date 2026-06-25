@@ -10,6 +10,13 @@
 
 It's an hobby grade Pen Plotter which can plot upto A1 size pages and will be efficient to use . It is also very reliable to use it uses grbl software.I have made it open source and anyone can recreate this and also customize it as all the step files are provided . This is made up of 2020 Extrusion Rod with Nema 17 stepper Motor..
 
+### Why I chose this project?
+I have choosing this project since it's my from a long time. I have think about that. I want to build and pen plotter. Since whenever I seen this kind of plotted video in any social media, it just fascinated me like how it can just recreate the exact same copy that is on the desktop. So I have chosen this project since I have dream about this project and I like the concept, how the project works, how we can control the coordinates and make changes in the design.
+
+### How to use this project
+Use case of this project can be many according to the need, but for my I want to create stunning drawings that cannot be achieved by manually if possible, then it would take many hours, but then I can easily recreate this using this slaughter and also I am very fascinated about drawing about the blueprint of any structure, so it would be great. I can make blueprint of any structured using it since it can easily feed big size pages.
+
+
   
 ### Rough Sketch
 
