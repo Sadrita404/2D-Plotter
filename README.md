@@ -60,6 +60,7 @@ GRBL is the firmware which is going to run on the Arduino and interpret the G-co
 5. **Connect the Arduino to the PC via USB** *(make sure the correct board and port is selected)*.
 6. **Flash the sketch** through `Sketch` -> `Upload`.
 
+### For more about the CNC shield - [DOC Link](https://mikroshop.ch/pdf/CNC-Shield-Guide.pdf)
 ---
 
 ### Connecting the Arduino to LaserGRBL
