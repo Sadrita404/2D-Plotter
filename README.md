@@ -171,4 +171,6 @@ If the console shows `Grbl 1.1h`, the chip is connected.
   </table>
 </div>
 
+#### Please approve this project I had put a lot of work in making it.
+
 **Project Under Hack Club**
